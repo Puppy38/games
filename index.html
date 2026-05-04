@@ -1,29 +1,167 @@
 <!DOCTYPE html>
-    <head></head>
-    <body>
-        <h1>Other Games</h1>
-        <button onClick="openURL('https://geometrydash-pc.com/play/gdlite/')"><img src='./resources/geomdash.png' width="207" height="155"><br>Geometry Dash (Lite)</button>
-        <button onClick="openURL('https://fnf.kdata1.com/2026/fnf-kbhgames/desktop/4.65/')"><img src='./resources/fnfo.png' width="207" height="155"><br>Friday Night Funkin'</button>
-        <button onClick="openURL('https://bloodmoneygame.github.io/game/bloodmoney/')"><img src='./resources/harv.png' width="207" height="155"><br>Bloodmoney</button>
-        <button onClick="openURL('https://2games.io/game/bloodmoney-2/')"><img src='./resources/rvey.png' width="207" height="155"><br>Human Expenditure Program</button>
-        <button onClick="openURL('https://wowtbc.net/sprunkin/sprunki-original/index.html')"><img src='./resources/oren.png' width="207" height="155"><br>Sprunki</button>
-        <h1>Our Games</h1>
-        <button onClick="openURL('https://puppy38.github.io/unbore-yourself/Super Stella/')"><img src='./resources/superstella.png' width="207" height="155"><br>Super Stella</button>
-        <button onClick="openURL('https://puppy38.github.io/unbore-yourself/Escape Eni V3.7-1/')"><img src='./resources/eeni.png' width="207" height="155"><br>Escape Eni</button>
-        <button onClick="openURL('https://puppy38.github.io/unbore-yourself/Five%20Nights%20At%20Eni%27s%20(4)/')"><img src='./resources/fnae.png' width="207" height="155"><br>Five Nights At Eni's</button>
-        <button onClick="openURL('https://puppy38.github.io/fnf-waitwhat-online-scratch-edition/')"><img src='./resources/fnfw.png' width="207" height="155"><br>FNF Wait What?!?! (aka. vs me) Scratch Edition Online</button>
-        <button onClick="openURL('https://puppy38.github.io/unbore-yourself/usc/')"><img src='./resources/spcl.png' width="207" height="155"><br>ULTIMATE Spark Clicker</button>
-        <button onClick="openURL('https://puppy38.github.io/unbore-yourself/mbox/')"><img src='./resources/mbox.png' width="207" height="155"><br>Move Box</button>
-        <button onClick="openURL('https://puppy38.github.io/website/FlappyBirdClone/')"><img src='./resources/fbir.png' width="207" height="155"><br>Flappy Bird Clone</button>
-        <button onClick="openURL('https://puppy38.github.io/TalkingSpongebob/')"><img src='./resources/sbng.png' width="207" height="155"><br>Talking Spongebob</button>
-        <h1>Mobile Games</h1>
-        <button onClick="openURL('https://puppy38.github.io/escape-eni-mobile/')"><img src='./resources/eeni.png' width="207" height="155"><br>Escape Eni Mobile</button>
-        <button onClick="openURL('https://puppy38.github.io/Android/FNAE/')"><img src='./resources/fnae.png' width="207" height="155"><br>Five Nights At Eni's Mobile</button>
-        <button onClick="openURL('https://puppy38.github.io/Android/Move%20Box/')"><img src='./resources/mbox.png' width="207" height="155"><br>Move Box Mobile</button>
-        <script>
-            function openURL(url) {
-                open(url)
-            }
-        </script>
-    </body>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f1115;
+    color: #eaeaea;
+    padding: 20px;
+}
+
+/* Section titles */
+h1 {
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+/* Grid layout */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* Card */
+.card {
+    background: #151821;
+    border: 1px solid #2a2f3a;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    border-color: #3a4252;
+}
+
+/* Image */
+.card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* Title */
+.card p {
+    margin: 10px 0 5px;
+    color: #ccc;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🎮 Other Games</h1>
+<div class="grid">
+
+<div class="card" onclick="openURL('https://geometrydash-pc.com/play/gdlite/')">
+<img src="./resources/geomdash.png">
+<p>Geometry Dash (Lite)</p>
+</div>
+
+<div class="card" onclick="openURL('https://fnf.kdata1.com/2026/fnf-kbhgames/desktop/4.65/')">
+<img src="./resources/fnfo.png">
+<p>Friday Night Funkin'</p>
+</div>
+
+<div class="card" onclick="openURL('https://bloodmoneygame.github.io/game/bloodmoney/')">
+<img src="./resources/harv.png">
+<p>Bloodmoney</p>
+</div>
+
+<div class="card" onclick="openURL('https://2games.io/game/bloodmoney-2/')">
+<img src="./resources/rvey.png">
+<p>Human Expenditure Program</p>
+</div>
+
+<div class="card" onclick="openURL('https://wowtbc.net/sprunkin/sprunki-original/index.html')">
+<img src="./resources/oren.png">
+<p>Sprunki</p>
+</div>
+
+</div>
+
+
+<h1>🕹️ Our Games</h1>
+<div class="grid">
+
+<div class="card" onclick="openURL('https://puppy38.github.io/unbore-yourself/Super Stella/')">
+<img src="./resources/superstella.png">
+<p>Super Stella</p>
+</div>
+
+<div class="card" onclick="openURL('https://puppy38.github.io/unbore-yourself/Escape Eni V3.7-1/')">
+<img src="./resources/eeni.png">
+<p>Escape Eni</p>
+</div>
+
+<div class="card" onclick="openURL('https://puppy38.github.io/unbore-yourself/Five%20Nights%20At%20Eni%27s%20(4)/')">
+<img src="./resources/fnae.png">
+<p>Five Nights At Eni's</p>
+</div>
+
+<div class="card" onclick="openURL('https://puppy38.github.io/fnf-waitwhat-online-scratch-edition/')">
+<img src="./resources/fnfw.png">
+<p>FNF Wait What?!</p>
+</div>
+
+<div class="card" onclick="openURL('https://puppy38.github.io/unbore-yourself/usc/')">
+<img src="./resources/spcl.png">
+<p>Ultimate Spark Clicker</p>
+</div>
+
+<div class="card" onclick="openURL('https://puppy38.github.io/unbore-yourself/mbox/')">
+<img src="./resources/mbox.png">
+<p>Move Box</p>
+</div>
+
+<div class="card" onclick="openURL('https://puppy38.github.io/website/FlappyBirdClone/')">
+<img src="./resources/fbir.png">
+<p>Flappy Bird Clone</p>
+</div>
+
+<div class="card" onclick="openURL('https://puppy38.github.io/TalkingSpongebob/')">
+<img src="./resources/sbng.png">
+<p>Talking Spongebob</p>
+</div>
+
+</div>
+
+
+<h1>📱 Mobile Games</h1>
+<div class="grid">
+
+<div class="card" onclick="openURL('https://puppy38.github.io/escape-eni-mobile/')">
+<img src="./resources/eeni.png">
+<p>Escape Eni Mobile</p>
+</div>
+
+<div class="card" onclick="openURL('https://puppy38.github.io/Android/FNAE/')">
+<img src="./resources/fnae.png">
+<p>FNAE Mobile</p>
+</div>
+
+<div class="card" onclick="openURL('https://puppy38.github.io/Android/Move%20Box/')">
+<img src="./resources/mbox.png">
+<p>Move Box Mobile</p>
+</div>
+
+</div>
+
+
+<script>
+function openURL(url) {
+    window.open(url, "_blank");
+}
+</script>
+
+</body>
 </html>
